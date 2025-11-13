@@ -21,10 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="anekdots.txt" />
     <Compile Include="markov_generator.py" />
+    <Compile Include="oneline.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="anekdots.txt" />
+    <Content Include="anekdots2.txt" />
     <Content Include="report.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -29,7 +29,7 @@ def build_markov_chain(texts, n=2):
 
     return chain, starts
 
-def generate_joke(chain, starts, n=2, max_words=100):
+def generate_joke(chain, starts, n=2, max_words=200):
     if not chain or not starts:
         return ""
     key = random.choice(starts)  # начинаем с реального начала
